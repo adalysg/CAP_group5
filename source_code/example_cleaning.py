@@ -124,6 +124,7 @@ df_raw = pd.read_csv('airbnb.csv')
 
 df = df_raw[['address', 'price', 'bathrooms', 'beds', 'guests', 'bedrooms']]
 
+# If number of commas is over 2, then it is split into more than just city, state, country -> removed for easier parsing
 for index, row in df.iterrows():
 	commas = 0
 	for char in row['address']:
@@ -137,6 +138,7 @@ df = df.drop(['address'], axis=1)
 
 cleaned = df.dropna()
 
+# Converting the local currencies to USD.
 prices_list = cleaned['price'].to_list()
 countries_list = cleaned['country'].to_list()
 
