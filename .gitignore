@@ -1,0 +1,6 @@
+*.csv
+*.venv
+the-env
+test.ipynb
+notes.txt
+test2.ipynb
