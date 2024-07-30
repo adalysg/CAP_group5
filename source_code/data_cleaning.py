@@ -122,6 +122,7 @@ currency_conversion_to_usd = {
 
 df_raw = pd.read_csv('airbnb.csv')
 
+# Remove extraneous attributes
 df = df_raw[['address', 'price', 'bathrooms', 'beds', 'guests', 'bedrooms']]
 
 # If number of commas is over 2, then it is split into more than just city, state, country -> removed for easier parsing
