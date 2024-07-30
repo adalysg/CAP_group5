@@ -19,4 +19,5 @@ upper = Q3 + 1.5 * IQR
 
 df = df[(df['price'] >= lower) & (df['price'] <= upper)]
 
-# print(df)
+# Make a new CSV file with the converted currencies.
+df.to_csv('cleaned_airbnb.csv', sep=',', encoding='utf-8', index=False, header=True)
