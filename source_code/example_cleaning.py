@@ -147,4 +147,6 @@ for i in range(0, len(prices_list)):
 	new_prices_converted.append(prices_list[i]*currency_conversion_to_usd[countries_list[i]])
 
 cleaned['price'] = new_prices_converted
+
+# Make a new CSV file with the converted currencies.
 cleaned.to_csv('cleaned_airbnb.csv', sep=',', encoding='utf-8', index=False, header=True)
