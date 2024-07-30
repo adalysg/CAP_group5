@@ -4,8 +4,10 @@ Adalys Garcia \
 Jack Mills \
 Josh Brown
 
+## Overview
+Our project analyzed AirBnB housing data in order to predict pricing based off of features such as number of bedrooms, bathrooms, beds, and guests available.
 ## Python Virtual Environment Setup
-1. Set up Python Virtual Environment.
+1. Set up Python Virtual Environment. \
 `python3 -m venv env`
 
 2. Activate the virtual environment. \
