@@ -11,7 +11,7 @@ Our project analyzed AirBnB housing data in order to predict pricing based off o
 
 2. Activate the virtual environment. \
 (MacOS) `source ./env/bin/activate` \
-(Windows)  `./env/Scripts/activate`
+(Windows)  `.\env\Scripts\activate`
 
 3. Install the modules needed. \
 `pip install -r requirements.txt`
