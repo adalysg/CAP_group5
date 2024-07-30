@@ -1,5 +1,4 @@
 # CAP4770 Team Project
-## AirBnB Data Analysis
 Adalys Garcia \
 Jack Mills \
 Josh Brown
